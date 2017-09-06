@@ -6,3 +6,5 @@ RUN pip install yamlreader
 
 WORKDIR /files
 VOLUME /files
+
+ENTRYPOINT ["yamlreader"]
